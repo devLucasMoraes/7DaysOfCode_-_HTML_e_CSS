@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
@@ -111,6 +109,12 @@ nav {
     margin-bottom: 4px;
 }
 
+.container__vagas {
+    display: flex;
+    gap: 64px;
+    flex-direction: column;
+}
+
 .container__vagas__talentos {
     display: flex;
     flex-direction: column;
@@ -139,4 +143,49 @@ nav {
     color: #667085;
     font-weight: 400;
     margin-bottom: 4rem;
+}
+
+.container__vagas__abertas {
+    display: flex;
+    flex-direction: column;
+    padding: 0 33%;
+    gap: 4rem;
+}
+
+.container__vagas__abertas__box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container__vagas__abertas__box h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.container__vagas__abertas__itens {
+    display: flex;
+    padding: 24px 24px 28px;
+    gap: 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.container__vagas__abertas__itens__vaga {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.container__vagas__abertas__itens__vaga__detalhes {
+    display: flex;
+    gap: 24px;
+}
+
+.container__vagas__abertas__itens__vaga__detalhes span {
+    font-size: 1rem;
+    color: #667085;
 }
