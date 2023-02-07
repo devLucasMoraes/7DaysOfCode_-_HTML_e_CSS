@@ -113,6 +113,7 @@ nav {
     display: flex;
     gap: 64px;
     flex-direction: column;
+    margin: 8% 2%;
 }
 
 .container__vagas__talentos {
@@ -188,4 +189,50 @@ nav {
 .container__vagas__abertas__itens__vaga__detalhes span {
     font-size: 1rem;
     color: #667085;
+}
+
+.container__depoimentos__depoimento {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.container__depoimentos__depoimento span {
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.container__depoimentos__depoimento h2 {
+    color: #101828;
+    font-weight: 500;
+    font-size: 2.25rem;
+}
+
+.container__depoimentos__pessoa img{ 
+    margin-bottom: 16px;
+}
+
+.container__depoimentos__pessoa h3 {
+    color: #101828;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+
+.container__depoimentos__pessoa span {
+    color: #667085;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.container__depoimentos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 64px;
+    gap: 32px;
+    margin: 0 5% 10% 5%;
 }
