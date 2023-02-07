@@ -9,7 +9,7 @@ nav {
     background-color: #FFFFFF;
     display: flex;
     padding: 1.125rem 5rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-weight: 500
 }
 
@@ -27,8 +27,7 @@ nav {
     gap: 32px;
     padding: 0.25rem;
     align-items: center;
-    margin-right: 25%;
-    margin-left: 2%;
+    margin-right: 26.38%;
 }
 
 .content a {
